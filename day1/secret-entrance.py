@@ -36,7 +36,7 @@ main()
 
 
 # Found this creature on advent of code subreddit
-# Doesn't work with your input file, this doesn't account for \n
+# Doesn't work with my input file, this doesn't account for \n
 
 #def crazyAnswer():
 #    s, c = 50, 0
