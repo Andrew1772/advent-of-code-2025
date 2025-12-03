@@ -5,11 +5,13 @@ def find_highest_voltage(bank):
     total = ""
     start = 0
 
+    print("for bank:", bank)
+
     while len(total) < 12:
         remaining = 12 - len(total)
         end = len(bank) - remaining
 
-        highest = '-1'
+        highest = '0'
         # This is the last position that I searched
         last_position = start
 
@@ -25,7 +27,6 @@ def find_highest_voltage(bank):
         start = last_position + 1
 
 
-    print("for bank:", bank)
     print("largest joltage:", total)
     return total
 
